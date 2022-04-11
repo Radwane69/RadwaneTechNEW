@@ -42,12 +42,12 @@ console.log(a);
 
 //exo 5
 function laSurface(base, hauteur) {
-    return base * hauteur /2
-  }
+  return (base * hauteur) / 2;
+}
 
 //exo 6 je me suis documenter pour le .reverse et le . join
-function reverse(s){
-    return s.split("").reverse().join("");
+function reverse(s) {
+  return s.split("").reverse().join("");
 }
 
 let ok = reverse("Radwane");
@@ -56,3 +56,11 @@ console.log(ok);
 //exo 7
 
 console.log(Math.max(10, 11, 8.4));
+
+//exo 8 j'ai utiliser le .find, on ne la pas vu en cours mais je me suis documenter
+
+function number() {
+  const array = [6, 7, 12, 90, 700];
+  const firstElement = array.find((element) => element != undefined);
+  console.log(firstElement);
+}
