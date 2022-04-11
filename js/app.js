@@ -1,4 +1,4 @@
-function controle(monform) {
+function controle(exo1) {
   var a = document.getElementById("a").value;
   var b = document.getElementById("b").value;
   //si inférieure
@@ -26,7 +26,7 @@ function somme() {
 
 //exo 3
 function nbr() {
-  let minute = parseInt(prompt("Minute"));
+  let minute = parseInt(prompt("Minutes"));
   let seconde = parseInt(prompt("Secondes"));
   let enSeconde = minute * 60 + seconde;
 
@@ -53,3 +53,6 @@ function reverse(s){
 let ok = reverse("Radwane");
 console.log(ok);
 
+//exo 7
+
+console.log(Math.max(10, 11, 8.4));
