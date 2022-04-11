@@ -39,3 +39,8 @@ let a = 10;
 a = a + 20;
 console.log(a);
 // }
+
+//exo 5
+function laSurface(base, hauteur) {
+    return base * hauteur /2
+  }
