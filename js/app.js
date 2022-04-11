@@ -4,11 +4,11 @@ function controle(exo1) {
   var b = document.getElementById("b").value;
   //si inférieure
   if (a < b) {
-    alert("Le plus petit chiffre est  " + a);
+    alert("Le plus petit chiffre est" + a);
   }
   //si supérieure
   if (a > b) {
-    alert("Le plus grand chiffre est  " + a);
+    alert("Le plus grand chiffre est" + a);
   }
   //si égal
   else if (a == b) {
@@ -68,19 +68,31 @@ function number() {
 
 //exo 9 j'ai pas trop réussi
 
-var num = [1,2,3,4,5,6,7,8,9];
+var num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-for(var i = 0; i < num.length; i++){
-    if(num[i]%9 === 0){
-        alert(num[i]);
-    }
+for (var i = 0; i < num.length; i++) {
+  if (num[i] % 9 === 0) {
+    alert(num[i]);
+  }
 }
 
 //exo 10
 
 function slim(width, height) {
-    if (width < 100 && height > 100) {
-      return true;
-    }
+  if (width < 100 && height > 100) {
+    return true;
+  } else {
     return false;
   }
+}
+
+//exo 11
+
+function P0(N) {
+  if (N >= 1) {
+    return false;
+  }
+  if (N <= 0) {
+    return true;
+  }
+}
