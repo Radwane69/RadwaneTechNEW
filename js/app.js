@@ -1,3 +1,4 @@
+// exo 1
 function controle(exo1) {
   var a = document.getElementById("a").value;
   var b = document.getElementById("b").value;
@@ -74,3 +75,12 @@ for(var i = 0; i < num.length; i++){
         alert(num[i]);
     }
 }
+
+//exo 10
+
+function slim(width, height) {
+    if (width < 100 && height > 100) {
+      return true;
+    }
+    return false;
+  }
