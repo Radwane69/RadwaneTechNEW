@@ -23,3 +23,10 @@ function somme(){
     sum = nbr1 + nbr2;
     document.getElementById("sum").value = sum;
 } 
+
+//exo 3
+var minute = parseInt(prompt("Minute"));
+var seconde = parseInt(prompt("Secondes"));
+var enSeconde = (minute * 60) + seconde;
+ 
+console.log(enSeconde);
