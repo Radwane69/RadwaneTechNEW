@@ -15,7 +15,7 @@ function controle(exo1) {
   }
 }
 
-//On voit le resulat mais ne s'affiche pas longtemps
+//exo 2 : On voit le resulat mais ne s'affiche pas longtemps
 function somme() {
   var nbr1, nbr2, sum;
   nbr1 = Number(document.getElementById("nbr1").value);
@@ -63,4 +63,14 @@ function number() {
   const array = [6, 7, 12, 90, 700];
   const firstElement = array.find((element) => element != undefined);
   console.log(firstElement);
+}
+
+//exo 9 j'ai pas trop réussi
+
+var num = [1,2,3,4,5,6,7,8,9];
+
+for(var i = 0; i < num.length; i++){
+    if(num[i]%9 === 0){
+        alert(num[i]);
+    }
 }
