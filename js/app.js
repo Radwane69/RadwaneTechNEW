@@ -3,11 +3,11 @@ function controle(monform) {
   var b = document.getElementById("b").value;
   //si inférieure
   if (a < b) {
-    alert("Le plus petit chiffre est : " + a);
+    alert("Le plus petit chiffre est  " + a);
   }
   //si supérieure
   if (a > b) {
-    alert("Le plus grand chiffre est : " + a);
+    alert("Le plus grand chiffre est  " + a);
   }
   //si égal
   else if (a == b) {
@@ -44,3 +44,12 @@ console.log(a);
 function laSurface(base, hauteur) {
     return base * hauteur /2
   }
+
+//exo 6 je me suis documenter pour le .reverse et le . join
+function reverse(s){
+    return s.split("").reverse().join("");
+}
+
+let ok = reverse("Radwane");
+console.log(ok);
+
